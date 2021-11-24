@@ -8,3 +8,9 @@ LATEX typesetting is done with the use of special tags or instructions that allo
 - \begin{itemize} : starts an environment
 - \item : this is an item part of a list, and thus has to be formatted accordingly. Like a list start point
 - \item[\S] : does the same as item, except that inside the brackets is \S that changes the black dot(bullet point) before the line for a special character.
+- \newcommand : New commands are defined by this
+- \newcommand{\R}{\mathbb{R}} : The statement \newcommand{\R}{\mathbb{R}} has two parameters that define a new command  
+                                &emsp; \R  
+                                &emsp; This is the name of the new command.  
+                                &emsp; \mathbb{R}  
+                                &emsp; This is what the new command does. In this case the letter R will be written in blackboard boldface style. 
