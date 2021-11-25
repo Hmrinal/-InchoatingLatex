@@ -14,8 +14,19 @@ LATEX typesetting is done with the use of special tags or instructions that allo
 ![Example1 Diagram](cmdR_1.png)
 - Example1 Display
 
-                                &emsp; \R  
-                                &emsp; &emsp; This is the name of the new command.  
-                                &emsp; \mathbb{R}  
-                                &emsp; &emsp; This is what the new command does. In this case the letter R will be written in blackboard boldface style. 
+         \R  
+           This is the name of the new command.  
+         \mathbb{R}  
+           This is what the new command does. In this case the letter R will be written in blackboard boldface style. 
 - \newcommand{\bb}[1]{\mathbb{#1}} : 
+
+
+
+        \bb  
+           This is the name of the new command.   
+        [1]   
+           The number of parameters the new command will take.       
+        \mathbb{#1}   
+           This is what the command actually does. In this case the parameter, referenced as #1, will be written using  
+           blackboard boldface characters. If the   defined new command needs more than one parameter, you can refer 
+           each parameter by #1, #2 and so on, up to 9 parameters are supported.
