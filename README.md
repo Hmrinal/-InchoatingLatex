@@ -17,7 +17,9 @@ LATEX typesetting is done with the use of special tags or instructions that allo
          \R  
            This is the name of the new command.  
          \mathbb{R}  
-           This is what the new command does. In this case the letter R will be written in blackboard boldface style. 
+           This is what the new command does. In this case the letter R will be written in 
+           blackboard boldface style.   
+           
 - \newcommand{\bb}[1]{\mathbb{#1}} : 
 
 ![Example2 Diagram](cmdR_2.png)  
@@ -29,6 +31,7 @@ LATEX typesetting is done with the use of special tags or instructions that allo
         [1]   
            The number of parameters the new command will take.       
         \mathbb{#1}   
-           This is what the command actually does. In this case the parameter, referenced as #1, will be written using  
-           blackboard boldface characters. If the   defined new command needs more than one parameter, you can refer 
-           each parameter by #1, #2 and so on, up to 9 parameters are supported.
+           This is what the command actually does. In this case the parameter, referenced as #1, 
+           will be written using blackboard boldface characters. If the   defined new command 
+           needs more than one parameter, you can refer each parameter by #1, #2 and so on, 
+           up to 9 parameters are supported.
