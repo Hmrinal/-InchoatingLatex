@@ -11,8 +11,8 @@ LATEX typesetting is done with the use of special tags or instructions that allo
 - \newcommand : New commands are defined by this
 - \newcommand{\R}{\mathbb{R}} : The statement \newcommand{\R}{\mathbb{R}} has two parameters that define a new command  
 
-![Example1 Diagram](cmdR_1.png)
-- Example1 Display
+![Example1 Diagram](cmdR_1.png)   
+ Example1 Display
 
          \R  
            This is the name of the new command.  
@@ -20,7 +20,9 @@ LATEX typesetting is done with the use of special tags or instructions that allo
            This is what the new command does. In this case the letter R will be written in blackboard boldface style. 
 - \newcommand{\bb}[1]{\mathbb{#1}} : 
 
-
+![Example2 Diagram](cmdR_2.png)  
+ 
+ Example2 Display
 
         \bb  
            This is the name of the new command.   
