@@ -17,3 +17,4 @@ Ex2: \usepackage[utf8]{inputenc}
 => This is the encoding for the document, to allow characters beyond ASCII (e.g. à, ü, č ...) to be used in the text.  
 Ex3: \title{First document} \author{Abc} \date{February 2016}  
 => These lines are self-descriptive as this part is used to display the title, author and date when the document was written.   
+
